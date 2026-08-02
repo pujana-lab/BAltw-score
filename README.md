@@ -2,6 +2,9 @@
 
 R implementation for computing the **βAltw score**, a weighted gene expression signature that captures the anti-correlated relationship between TGFβ signaling and alternative end-joining (alt-EJ) DNA repair activity.
 
+> **Note:** This repository contains a standalone implementation of the βAltw scoring function. For the full analysis pipeline used to derive and validate the score across all datasets in the paper (HNSC explants, TCGA, GSE41613, GSE26712, NCI-60, etc.), see [bAltw-score-validation](https://github.com/pujana-lab/bAltw-score-validation).
+
+
 ## Background
 
 Loss of TGFβ signaling shifts DNA double-strand break repair toward alt-EJ, an error-prone pathway associated with genomic instability. TGFβ and alt-EJ gene expression signatures are anti-correlated across cancer types, and this relationship predicts patient outcome after genotoxic therapy (radiation, platinum-based chemotherapy).
